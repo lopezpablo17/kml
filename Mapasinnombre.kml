@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mapa sin nombre</name>
+    <description/>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-000000-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-000000-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin título</name>
+    </Folder>
+    <Folder>
+      <name>Capa sin título</name>
+      <Placemark>
+        <name>cara</name>
+        <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -57.0140441,-33.4884081,0
+                -57.027777,-33.4952798,0
+                -57.0387633,-33.5136015,0
+                -57.0538695,-33.5582445,0
+                -57.0483764,-33.6234505,0
+                -56.9920714,-33.6691796,0
+                -56.9220336,-33.6908925,0
+                -56.8465026,-33.6840364,0
+                -56.8039306,-33.6371718,0
+                -56.7984374,-33.5742646,0
+                -56.7929443,-33.5124565,0
+                -56.8025573,-33.4815359,0
+                -56.8890746,-33.4597704,0
+                -56.9659789,-33.4597704,0
+                -57.0140441,-33.4884081,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Línea 3</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -57.0030578,-33.5193263,0
+            -56.9549926,-33.5181813,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Línea 4</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -56.8746551,-33.5233334,0
+            -56.8307098,-33.5233334,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Línea 5</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -56.952246,-33.5902817,0
+            -56.9179137,-33.5633942,0
+            -56.9055541,-33.598861,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Línea 6</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -56.9961913,-33.6171608,0
+            -56.9625457,-33.6285962,0
+            -56.9474395,-33.6411734,0
+            -56.9028075,-33.6440316,0
+            -56.8746551,-33.6411734,0
+            -56.8519958,-33.622307,0
+            -56.8471892,-33.6108707,0
+            -56.843756,-33.5954294,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
