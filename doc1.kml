@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="43">
+        <Folder id="5">
+            <Style id="0">
+                <IconStyle id="3">
+                    <colorMode>normal</colorMode>
+                    <scale>0</scale>
+                    <heading>0</heading>
+                    <Icon id="4">
+                        <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                    </Icon>
+                </IconStyle>
+                <LineStyle id="1">
+                    <color>ff0d0dff</color>
+                    <colorMode>normal</colorMode>
+                    <width>2.0</width>
+                </LineStyle>
+                <PolyStyle id="2">
+                    <color>ff2d5291</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <name>CODCOMP_A_82</name>
+            <Placemark id="7">
+                <name>0107107005</name>
+                <description>
+<![CDATA[
+<table>
+<tr style="background-color:#DDDDFF"><td>AREA</td><td>$[AREA]</td></tr>
+<tr><td>PERIMETER</td><td>$[PERIMETER]</td></tr>
+<tr style="background-color:#DDDDFF"><td>CODCOMP</td><td>$[CODCOMP]</td></tr>
+<tr><td>DEPTO</td><td>$[DEPTO]</td></tr>
+<tr style="background-color:#DDDDFF"><td>NOMBDEPTO</td><td>$[NOMBDEPTO]</td></tr>
+<tr><td>NOMBLOC</td><td>$[NOMBLOC]</td></tr>
+<tr style="background-color:#DDDDFF"><td>CODCOMP_A</td><td>$[CODCOMP_A]</td></tr>
+<tr><td>CODLOC</td><td>$[CODLOC]</td></tr>
+<tr style="background-color:#DDDDFF"><td>MUNICIPIO</td><td>$[MUNICIPIO]</td></tr>
+<tr><td>COD_BARRIO</td><td>$[COD_BARRIO]</td></tr>
+<tr style="background-color:#DDDDFF"><td>2011_V_TOT</td><td>$[2011_V_TOT]</td></tr>
+<tr><td>2011_V_PAR</td><td>$[2011_V_PAR]</td></tr>
+<tr style="background-color:#DDDDFF"><td>2011_V_COL</td><td>$[2011_V_COL]</td></tr>
+<tr><td>_estrato15</td><td>$[_estrato15]</td></tr>
+<tr style="background-color:#DDDDFF"><td>_barrio</td><td>$[_barrio]</td></tr>
+<tr><td>_P1</td><td>$[_P1]</td></tr>
+<tr style="background-color:#DDDDFF"><td>_P2</td><td>$[_P2]</td></tr>
+<tr><td>_P3</td><td>$[_P3]</td></tr>
+<tr style="background-color:#DDDDFF"><td>_P4</td><td>$[_P4]</td></tr>
+<tr><td>_P5</td><td>$[_P5]</td></tr>
+<tr style="background-color:#DDDDFF"><td>_pruebas c</td><td>$[_pruebas c]</td></tr>
+<tr><td>operador</td><td>$[operador]</td></tr>
+<tr style="background-color:#DDDDFF"><td>peligro</td><td>$[peligro]</td></tr>
+<tr><td>puntos_UTE</td><td>$[puntos_UTE]</td></tr>
+<tr style="background-color:#DDDDFF"><td>DIFERENCIA</td><td>$[DIFERENCIA]</td></tr>
+</table>
+]]>                </description>
+                <styleUrl>#0</styleUrl>
+                <ExtendedData>
+                    <Data name="AREA">
+                        <value>9292.504095</value>
+                        <displayName>AREA</displayName>
+                    </Data>
+                    <Data name="PERIMETER">
+                        <value>386.399209</value>
+                        <displayName>PERIMETER</displayName>
+                    </Data>
+                    <Data name="CODCOMP">
+                        <value>107107005.0</value>
+                        <displayName>CODCOMP</displayName>
+                    </Data>
+                    <Data name="DEPTO">
+                        <value>1</value>
+                        <displayName>DEPTO</displayName>
+                    </Data>
+                    <Data name="NOMBDEPTO">
+                        <value>MONTEVIDEO</value>
+                        <displayName>NOMBDEPTO</displayName>
+                    </Data>
+                    <Data name="NOMBLOC">
+                        <value>MONTEVIDEO</value>
+                        <displayName>NOMBLOC</displayName>
+                    </Data>
+                    <Data name="CODCOMP_A">
+                        <value>0107107005</value>
+                        <displayName>CODCOMP_A</displayName>
+                    </Data>
+                    <Data name="CODLOC">
+                        <value>1020</value>
+                        <displayName>CODLOC</displayName>
+                    </Data>
+                    <Data name="MUNICIPIO">
+                        <value>B</value>
+                        <displayName>MUNICIPIO</displayName>
+                    </Data>
+                    <Data name="COD_BARRIO">
+                        <value>5</value>
+                        <displayName>COD_BARRIO</displayName>
+                    </Data>
+                    <Data name="2011_V_TOT">
+                        <value>88</value>
+                        <displayName>2011_V_TOT</displayName>
+                    </Data>
+                    <Data name="2011_V_PAR">
+                        <value>88</value>
+                        <displayName>2011_V_PAR</displayName>
+                    </Data>
+                    <Data name="2011_V_COL">
+                        <value/>
+                        <displayName>2011_V_COL</displayName>
+                    </Data>
+                    <Data name="_estrato15">
+                        <value>3</value>
+                        <displayName>_estrato15</displayName>
+                    </Data>
+                    <Data name="_barrio">
+                        <value>Palermo</value>
+                        <displayName>_barrio</displayName>
+                    </Data>
+                    <Data name="_P1">
+                        <value>1</value>
+                        <displayName>_P1</displayName>
+                    </Data>
+                    <Data name="_P2">
+                        <value>0</value>
+                        <displayName>_P2</displayName>
+                    </Data>
+                    <Data name="_P3">
+                        <value>1</value>
+                        <displayName>_P3</displayName>
+                    </Data>
+                    <Data name="_P4">
+                        <value>0</value>
+                        <displayName>_P4</displayName>
+                    </Data>
+                    <Data name="_P5">
+                        <value>0</value>
+                        <displayName>_P5</displayName>
+                    </Data>
+                    <Data name="_pruebas c">
+                        <value>1</value>
+                        <displayName>_pruebas c</displayName>
+                    </Data>
+                    <Data name="operador">
+                        <value>ALE ISIS</value>
+                        <displayName>operador</displayName>
+                    </Data>
+                    <Data name="peligro">
+                        <value>no</value>
+                        <displayName>peligro</displayName>
+                    </Data>
+                    <Data name="puntos_UTE">
+                        <value>110.0</value>
+                        <displayName>puntos_UTE</displayName>
+                    </Data>
+                    <Data name="DIFERENCIA">
+                        <value>-22.0</value>
+                        <displayName>DIFERENCIA</displayName>
+                    </Data>
+                </ExtendedData>
+                <MultiGeometry id="6">
+                    <Point id="8">
+                        <coordinates>-56.18234783955741,-34.9094876111759,0.0</coordinates>
+                    </Point>
+                    <Polygon id="10">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="14">
+                                <coordinates>-56.181927666885,-34.9089751802392,0.0 -56.1819176657595,-34.9090443640016,0.0 -56.1818181648309,-34.9099367854818,0.0 -56.1827675912301,-34.9099939515679,0.0 -56.1828740077575,-34.909134431952,0.0 -56.1828712698971,-34.9090448057042,0.0 -56.1819859571107,-34.9089812650612,0.0 -56.181927666885,-34.9089751802392,0.0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </MultiGeometry>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
